@@ -39,7 +39,7 @@
   src: url(../fonts/OpenSans-Semibold.ttf);
 }
 p {
-  font-family: "OpenSans-Regular";
+font-family: 'Poppins', sans-serif;
   color: #666666;
   font-size: 16px;
 }
@@ -47,7 +47,8 @@ p {
 body {
   overflow: hidden;
   overflow-y: auto;
-  font-family: "OpenSans-Regular";
+font-family: 'Poppins', sans-serif;
+
 }
 
 @media (min-width: 1200px) {
@@ -66,11 +67,7 @@ body {
 }
 #gtco-main-nav .navbar-brand {
   font-size: 36px;
-  font-family: "OpenSans-Bold";
-  background: -webkit-linear-gradient(left, #000000, #000000);
-  background: -ms-linear-gradient(left, #000000, #000000);
-  background: -moz-linear-gradient(left, #000000, #000000);
-  background: -o-linear-gradient(left, #000000, #000000);
+font-family: 'Poppins', sans-serif;
   -webkit-background-clip: text;
   -ms-background-clip: text;
   -o-background-clip: text;
@@ -81,7 +78,7 @@ body {
 #gtco-main-nav .bar1, #gtco-main-nav .bar2, #gtco-main-nav .bar3 {
   width: 25px;
   height: 2px;
-  background-color: #000000;
+  background-color:#5C6E58;
   margin: 5px 0;
   transition: 0.4s;
   display: block;
@@ -101,7 +98,7 @@ body {
 #gtco-main-nav .navbar-nav li a {
 font-family: 'Comfortaa',Bold;
   font-size: 28px;
-  color: #000000;
+    color:#5C6E58;
   padding: 5px 15px !important;
     margin-right: 0px 155px;
   /* text-transform: uppercase; */
@@ -109,7 +106,7 @@ font-family: 'Comfortaa',Bold;
 #gtco-main-nav form a {
   font-family: "OpenSans-Semibold";
   font-size: 18px;
-  color: #fff;
+  color: #5C6E58;
   padding: 5px 25px;
   border-radius: 20px;
   border-width: 2px;
@@ -141,11 +138,11 @@ font-family: 'Comfortaa',Bold;
   content: "";
   height: 600px;
   width: 900px;
-  background-image: -webkit-linear-gradient(-150deg,#048f94 ,  #5ce1e6 );
-  background-image: -moz-linear-gradient(-150deg,#048f94 ,  #5ce1e6 );
-  background-image: -ms-linear-gradient(-150deg, #048f94 ,  #5ce1e6 );
-  background-image: -o-linear-gradient(-150deg,#048f94 ,  #5ce1e6 );
-  background-image: linear-gradient(-150deg,#048f94 ,  #5ce1e6 );
+  /* background-image: -webkit-linear-gradient(-150deg,#c4cf04 ,  #5ce1e6 );
+  background-image: -moz-linear-gradient(-150deg,#c4cf04 ,  #5ce1e6 );
+  background-image: -ms-linear-gradient(-150deg, #c4cf04 ,  #5ce1e6 );
+  background-image: -o-linear-gradient(-150deg,#c4cf04 ,  #5ce1e6 );
+  background-image: linear-gradient(-150deg,#c4cf04 ,  #5ce1e6 ); */
   left: 49.5%;
   top: -50px;
   z-index: -1;
@@ -186,11 +183,11 @@ font-family: 'Comfortaa',Bold;
   content: "";
   height: 590px;
   width: 930px;
-  background-image: -webkit-linear-gradient(to right, #5ce1e6, #5ce1e6);
+  /* background-image: -webkit-linear-gradient(to right, #5ce1e6, #5ce1e6);
   background-image: -moz-linear-gradient(to right, #5ce1e6, #5ce1e6);
   background-image: -ms-linear-gradient(to right, #5ce1e6, #5ce1e6);
   background-image: -o-linear-gradient(to right, #5ce1e6, #5ce1e6);
-  background-image: linear-gradient(to right, #5ce1e6, #5ce1e6);
+  background-image: linear-gradient(to right, #5ce1e6, #5ce1e6); */
   left: 47.5%;
   top: -25px;
   z-index: -1;
@@ -216,18 +213,18 @@ font-family: 'Comfortaa',Bold;
 }
 @media (max-width: 600px) {
   #gtco-main-nav::before {
-    width: 100%;
+    width: 10
     height: 390px;
   }
 }
 
 .gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
-  background-image: -moz-linear-gradient(0deg, #172B3D 0%, #0085DA 100%);
-  background-image: -webkit-linear-gradient(0deg, #172B3D 0%, #0085DA 100%);
-  background-image: -ms-linear-gradient(0deg, #172B3D 0%, #0085DA 100%);
+  background-image: -moz-linear-gradient(0deg,:#5C6E58 0%,#5C6E58 100%);
+  background-image: -webkit-linear-gradient(0deg,#5C6E58 0%,#5C6E58 100%);
+  /* background-image: -ms-linear-gradient(0deg, #172B3D 0%, #0085DA 100%); */
   font-size: 18px;
   font-family: "OpenSans-Semibold";
-  color: #fff;
+  color:#F2D349;
   border-radius: 50px;
   padding: 5px 30px;
   display: inline-block;
@@ -240,7 +237,7 @@ font-family: 'Comfortaa',Bold;
   border-radius: 50%;
   height: 32px;
   width: 32px;
-  color: #172B3D;
+  color:#F2D349;
   font-size: 22px;
   text-align: center;
   padding-top: 5px;

@@ -98,7 +98,7 @@ font-family: 'Poppins', sans-serif;
 #gtco-main-nav .navbar-nav li a {
 font-family: 'Comfortaa',Bold;
   font-size: 28px;
-    color:#5C6E58;
+    color:#03585b;
   padding: 5px 15px !important;
     margin-right: 0px 155px;
   /* text-transform: uppercase; */
@@ -219,12 +219,12 @@ font-family: 'Comfortaa',Bold;
 }
 
 .gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
-  background-image: -moz-linear-gradient(0deg,:#5C6E58 0%,#5C6E58 100%);
-  background-image: -webkit-linear-gradient(0deg,#5C6E58 0%,#5C6E58 100%);
-  /* background-image: -ms-linear-gradient(0deg, #172B3D 0%, #0085DA 100%); */
+  background-image: -moz-linear-gradient(0deg,:#54bcbf 0%,#077b80 100%);
+  background-image: -webkit-linear-gradient(0deg,#54bcbf 0%, #077b80 100%);
+  background-image: -ms-linear-gradient(0deg, #54bcbf 0%, #54bcbf 100%);
   font-size: 18px;
   font-family: "OpenSans-Semibold";
-  color:#F2D349;
+  color:#Ffffff;
   border-radius: 50px;
   padding: 5px 30px;
   display: inline-block;
@@ -237,7 +237,7 @@ font-family: 'Comfortaa',Bold;
   border-radius: 50%;
   height: 32px;
   width: 32px;
-  color:#F2D349;
+  color: #077b80;
   font-size: 22px;
   text-align: center;
   padding-top: 5px;

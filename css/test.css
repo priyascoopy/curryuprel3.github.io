@@ -232,6 +232,7 @@ font-family: 'Comfortaa',Bold;
   padding-right: 5px;
   text-decoration: none !important;
 }
+
 .gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa {
   background: #fff;
   border-radius: 50%;
@@ -248,7 +249,7 @@ font-family: 'Comfortaa',Bold;
   font-family: "Lato-Regular";
   color: #000000;
   font-size: 36px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .card {
@@ -377,6 +378,12 @@ margin-bottom:100px;
   margin-right: 0;
 
 }
+.gtco-feature.col-md-5 .card-img-top {
+  max-width: 330px;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-right: 0;
+}
 @media (max-width: 1400px) {
   .gtco-banner-area .col-md-6 .card .card-img-top {
     max-width: 400px;
@@ -396,7 +403,7 @@ margin-bottom:100px;
 }
 
 .gtco-feature {
-  margin-top: 100px;
+  margin-top: 0px;
 }
 .gtco-feature .card .back-bg {
   margin-left: -10px !important;
@@ -1122,6 +1129,10 @@ margin-bottom:100px;
   margin-top: 20px;
   overflow: hidden;
 }
+/* .container1 {
+  margin-top: 0px;
+  overflow: hidden;
+} */
 
 /* Style the buttons */
 .btn {
